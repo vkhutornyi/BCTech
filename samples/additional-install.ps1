@@ -28,7 +28,7 @@ choco install microsoft-edge
 #AddToStatus "Install PowerBI Desktop"
 #choco install powerbi
 
-AddToStatus "Azure Data Studio"
+AddToStatus "Install Azure Data Studio"
 choco install azure-data-studio
 
 #Add VSCode Extensions
