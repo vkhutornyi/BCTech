@@ -28,6 +28,9 @@ choco install microsoft-edge
 #AddToStatus "Install PowerBI Desktop"
 #choco install powerbi
 
+AddToStatus "Azure Data Studio"
+choco install azure-data-studio
+
 #Add VSCode Extensions
 "eamodio.gitlens", "ms-vscode.PowerShell", "heaths.vscode-guid", "github.vscode-pull-request-github", "formulahendry.docker-explorer" | % {
     AddToStatus "Install VSCode Extension: $_"
